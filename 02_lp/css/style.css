@@ -1,0 +1,519 @@
+/* ここから下に記載していく Ctrl+?でコメントアウト */
+/* 1-①クラス名（親）を指定する※リストを縦から横並びにする */
+.header__nav{
+  /* 1-②クラス名（親）に[display:flex]をいれるとリスト（子）が横並びになる */
+  display: flex;
+}
+/* 1-③リスト(子)に[margin-left: 40px]をすると、等間隔になる */
+.header__nav li {
+  margin-left: 40px;
+}
+
+/* 1-④header の出力一の調整*/
+.header {
+  display: flex;
+  /*左右の横幅を等間隔に調整*/
+  justify-content: space-around;
+  /*上下を中央に調整*/
+  align-items: center;
+}
+
+/* 2-① */
+.mainvisual{
+/* 2-②背景を設定 */
+        height: 400px;
+        /* 2-②urlで画像を持ってくるよーという呼び出し ※cssフォルダーの一個上の階層を見る場合は「..」を入れる*/
+        background: url("../img/mainbg.png");
+        /* 2-③画像を真ん中に寄せる */
+        background-position: center;
+        /* 2-④画面のサイズにビタっと合わせるよ */
+        background-size: cover;
+}
+.mainvisual__title{
+  /* 2-⑤メインタイトルのサイズ、太さ、カラーを変更 */
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center; /*文字の横位置*/
+        padding-top: 180px; /*上に余白*/
+
+}
+.mainvisual__subtitle{
+  /* 2-⑥サブタイトルのサイズ、太さ、カラーを変更 */
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center; /*文字の横位置*/
+        margin-top: 20px; /*一個上のテキストの下に入れる*/
+
+}
+
+.about{
+  /* 課題③-1 */
+  background-color: #fafafa;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.about__title{
+  font-size: 24px;
+  font-family: bold;
+  color: #ffd61f;
+  margin-bottom: 30px;
+}
+
+.about__subtitle{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.about__text{
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imgBox{
+  /* ④-1イメージの下の部分の余白設定 */
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.imgBox p img{
+  /*４-②横幅を25×4の100%で設定する　画面幅100*/
+  width: 100%;
+}
+
+/*5-①課題コース*/
+.course {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.course__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.course__subtitle {
+  text-align: center;
+  font-size: 16px;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+/* わからなくてコピペした箇所 ↓ */
+.course__box {
+  margin-top: 60px;
+  background-color: #fafafa;
+}
+
+.course__inner {
+  display: flex;
+}
+
+.course__content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.course__content img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.content__title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.content__text {
+  width: 100%;
+}
+
+.content__left {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.course__content__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.content__right {
+  width: 70%;
+  margin-right: 50px;
+}
+
+.news{
+  /* 課題⑥-1 */
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.news__title{
+  font-size: 24px;
+  font-family: bold;
+  color: #ffd61f;
+  margin-bottom: 30px;
+}
+
+.news__subtitle{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+/*課題⑦-1*/
+.access {
+  background-color: #fafafa;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.access__title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  }
+  
+  .access__subtitle {
+  text-align: center;
+  font-size: 16px;
+  font-weight:normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  }
+
+  .access__text{
+    font-size: 16px;
+    text-align: center;
+    font-weight:normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+/*課題⑧-1*/
+.contact {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.contact__title {
+font-size: 25px;
+text-align: center;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.contact__subtitle {
+text-align: center;
+font-size: 18px;
+font-weight:normal;
+margin-top: 30px;
+margin-bottom: 60px;
+}
+
+.contact__text1{
+  font-size: 16px;
+  text-align: center;
+  font-weight:normal;
+  margin-bottom: 30px;
+}
+
+
+
+/*リセットcss↓*/
+html {
+  overflow-y: scroll;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,th {
+  text-align: left;
+}
+q:before,q:after {
+  content: '';
+}
+object,embed {
+  vertical-align: top;
+}
+hr,legend {
+  display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+img,abbr,acronym,fieldset {
+  border: 0;
+}
+li {
+  list-style-type: none;
+}
+sup {
+  vertical-align: super;
+  font-size: 0.5em;
+}
+img {
+  vertical-align: top;
+}
+i {
+  font-style: normal;
+}
+/*----リセットcss*----/
+
+/*デザインcss↓*/
+.box_con02 {
+  max-width: 900px;
+  margin: 0  auto;
+}
+@media only screen and (max-width: 768px) {
+  .box_con02 {
+    width: 95%;
+  }
+}
+.box_con02 form {
+  width: 100%;
+}
+.box_con02 form table {
+  width: 100%;
+}
+.box_con02 form table tr {
+  position: relative;
+}
+.box_con02 form table tr:first-child td:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 1px;
+  border-bottom: solid 1px rgba(28, 46, 83, 0.5);
+}
+@media only screen and (max-width: 768px) {
+  .box_con02 form table tr:first-child td:before {
+    display: none;
+  }
+}
+.box_con02 form table tr th {
+  width: 30%;
+  font-weight: normal;
+  padding: 1em .5em;
+  background: #f8e179;
+  color: #fff;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  .box_con02 form table tr th {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: .8em .2em;
+  }
+}
+.box_con02 form table tr th span {
+  background: #ec7c5d;
+  padding: 0 .3em;
+  color: #fff;
+  margin-left: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con02 form table tr th:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: solid 1px #fff;
+}
+.box_con02 form table tr td {
+  position: relative;
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px) {
+  .box_con02 form table tr td {
+    padding: 1.5em .5em;
+    display: block;
+    width: 100%;
+  }
+}
+.box_con02 form table tr td:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: solid 1px rgba(28, 46, 83, 0.5);
+}
+.box_con02 form table tr .box_br {
+  display: block;
+}
+.box_con02 form table tr select, .box_con02 form table tr textarea, .box_con02 form table tr .wide {
+  width: 100%;
+  height: 3em;
+  padding: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con02 form table tr textarea {
+  height: 10em;
+}
+
+/*プライバシーのデザインcss↓*/
+.con_pri {
+  max-width: 700px;
+  margin: 0  auto;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri {
+    width: 95%;
+  }
+}
+.con_pri .box_pri {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #cdcdcd;
+  background: #f7f7f7;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 20px 55px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri {
+    margin-top: 4%;
+    padding: 3%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .con_pri .box_pri {
+    padding: 4%;
+  }
+}
+.con_pri .box_pri .box_tori {
+  text-align: left;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri .box_tori {
+    margin-top: 4%;
+  }
+}
+.con_pri .box_pri .box_tori h4 {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri .box_tori h4 {
+    margin-bottom: 4%;
+  }
+}
+.con_pri .box_pri .box_tori .txt {
+  padding: 0 20px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri .box_tori .txt {
+    padding: 0;
+  }
+}
+.con_pri .box_pri .box_num {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri .box_num {
+    margin-top: 5%;
+  }
+}
+.con_pri .box_pri .box_num h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.con_pri .box_pri .box_num .txt {
+  padding: 10px 0 0 20px;
+}
+@media only screen and (max-width: 768px) {
+  .con_pri .box_pri .box_num .txt {
+    padding: 3% 0 0 3%;
+  }
+}
+
+.box_check {
+  text-align: center;
+  margin: 1em auto;
+}
+.box_check label {
+  display: inline-block;
+}
+.box_check label span {
+  margin-left: .3em;
+}
+
+.btn {
+  text-align: center;
+}
+.btn input {
+  display: inline-block;
+  background: #f8e179;
+  color: #fff;
+  padding: .5em 4em;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.btn input:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+

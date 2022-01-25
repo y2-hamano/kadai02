@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>チーズアカデミー</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+
+  <!--Header menu ※ヘッダという箱を作ってクラス名を作成する-->
+  <!-- 1-①[.header]と入力→Tab→divができる-->
+  <div class="header">
+    <!--②logoという名の写真をh1に格納-->
+    <h1 class="logo"><img src="img/header_logo.png" alt=""></h1>
+    <!--③[ul.header__nav]と入力　※同じ種類のものを並べるときにリストタグを作るとよい-->
+  <ul class="header__nav">
+  <!-- ④[li*5]と入力→リストが5つ生成される　※リストを作成-->
+    <li>ABOUT</li>
+    <li>COURSE</li>
+    <li>NEWS</li>
+    <li>ACCESS</li>
+    <li>CONTACT</li>
+  </ul>
+
+
+  </div>
+  <!-- ②-1メインビジュアルを作成 -->
+  <div class="mainvisual">
+    <h2 class="mainvisual__title">セカイを変えるチーズを作ろう</h2>
+    <p class="mainvisual__subtitle">チーズ職人養成学校「チーズアカデミーTOKYO」</p>
+  </div>
+
+  <!-- 課題　③アバウトを作成 -->
+  <div class="about">
+    <h3 class="about__title">About</h3>
+    <p class="about__subtitle">チーズアカデミーについて</p>
+    <p class="about__text">チーズアカデミーは、チーズ職人養成学校です。</p>
+    <p class="about__text">チーズの素晴らしさを、自給自足を通じて、できるだけ多くの人に知っていただきたい。</p>
+    <p class="about__text"> そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。</p>
+    <p class="about__text">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。</p>
+    <p class="about__text">卒業後、チーズ自給自足のバックアップはもちろんのこと、チーズ職人への就職・転職もサポートします。</p>
+  </div>
+
+
+  <!-- ④-1イメージボックスを作成 -->
+  <div class="imgBox">
+      <p><img src="img/about_01.jpg" alt=""></p>
+      <p><img src="img/about_02.jpg" alt=""></p>
+      <p><img src="img/about_03.jpg" alt=""></p>
+      <p><img src="img/about_04.jpg" alt=""></p>
+    </div>
+
+  <!-- 課題　⑤-1コースを作成 -->
+  <div class="course">
+    <h5 class="course__title">Course</h5>
+    <p class="course__subtitle">未経験からでもスタートができるよう、カリキュラムは多くの専門家や</p>
+    <p class="course__subtitle ">   現役チーズ職人のアドバイスのもと、作られました。</p>
+
+
+    <!-- ----------------------------------------------------------------------------------------------------------->
+    <!-- わからなくてコピペした箇所 ↓-->
+
+    <div class="course__box">
+      <!--  画像左1  -->
+      <div class="course__inner">
+        <!--  コンテンツ1  -->
+        <div class="course__content"><img src="img/course_01.jpg" alt=""></div>
+        
+          <!--  コンテンツ2  -->
+        <div class="course__content">
+          <div class="content__left">
+            <h4 class="content__title">本格的な農園を使った実地研修</h4>
+            <p class="content__text">
+              チーズアカデミーでは、本格的な農園を使った実地研修を
+              行うことができます。プロとして活躍するチーズ職人も
+              使用するような、広大で環境も整った農園を余すところ
+              なく使い、卒業時には本格的なチーズを自分の力で作れる
+              実践力の養成を目指します。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--  画像右1  -->
+      <div class="course__inner">
+        <div class="course__content__right">
+            <div class="content__right">
+                <h4 class="content__title">必要な知識もしっかりと取得</h4>
+                <p class="content__text">チーズ作りには、しっかりとした食に関する知識が
+                  欠かせません。チーズアカデミーでは、一流講師陣による、
+                  チーズ作りに必要ないろはを余すところなく学べます。
+                  チーズそのものでなく、栄養学全般を学ぶことも
+                  可能ですので、チーズ以外への展開も夢ではないでしょう。
+                  </p>
+            </div>
+        </div>
+        <div class="course__content"><img src="img/course_02.jpg" alt=""></div>
+    </div>
+    
+      <!--  画像左2  -->
+      <div class="course__inner">
+        <!--  コンテンツ1  -->
+        <div class="course__content"><img src="img/course_03.jpg" alt=""></div>
+        
+          <!--  コンテンツ2  -->
+        <div class="course__content">
+          <div class="content__left">
+            <h4 class="content__title">卒業制作はティスティング審査あり</h4>
+            <p class="content__text">
+              チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。
+              卒業制作として、チーズ作りを実際に行います。卒業後、
+              一般参加によるティスティング審査があるため、作り手の
+              目線だけでなく、消費者の目線から、卒業制作作品としての
+              チーズを、しっかりと評価いただくことができます。
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+      <!-- わからなくてコピペした箇所 ↑-->
+      <!-- ---------------------------------------------------------------------------------------------------------->
+    </div>
+
+  <!-- 課題　⑥-1Newsを作成 -->
+  <div class="news">
+    <h3 class="news__title">News</h3>
+    <p class="about__subtitle">ニュース</p>
+   
+
+  </div>
+
+
+  <!-- 課題　⑦-1会社情報を作成 -->
+  <div class="access">
+    <h7 class="access__title">Access</h5>   
+    <p class="access__subtitle">会社情報</p> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.696260988075!2d139.71275705813892!3d35.66733579504938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9faa24a54b%3A0x58ba5c5f643c5f28!2sPORTAL%20POINT%20AOYAMA!5e0!3m2!1sja!2sjp!4v1643099415886!5m2!1sja!2sjp" width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p class="access__text">学校名　チーズアカデミーTOKYO</p>
+    <p class="access__text">事務所所在地 　〒107-0061東京都港区北青山3-5-6 青朋ビル2F</p>
+    <p class="access__text">TEL　03-5413-5045</p>
+    <p class="access__text">FAX　03-5413-5046</p>
+    <p class="access__text">MAIL　dummy@cheeseacademy.tokyo</p>
+
+  </div>
+  <!-- 課題　⑧-1お問合せを作成 -->
+  <div class="contact">
+    <h8 class="contact__title">Contact</h5>
+    <p class="contact__subtitle">説明会お申し込み・お問い合わせ</p>
+    <p class="contact__text1">  ぜひ1度、足を運んでみませんか。説明会は随時開催中。</p>
+    <p class="contact__text1"> その他、お問い合わせもお気軽にどうぞ。お待ちしております。</p>
+    <p class="contact__text1"> ※チーズアカデミーは実際には存在しません。</p>
+    <p class="contact__text1">間違っても問い合わせしないようお願いいたします。</p>
+  </div>
+        <div class="box_con02">
+            <form method="post" action="mail.php">
+            <table class="formTable">
+            <tr>
+                <!--<th>確認</th>
+                <td>
+                     <div class="box_br">
+                         <label>
+                           <input type="radio" name="gender" value="テキスト1">
+                           テキスト1
+                        </label>
+                    </div>
+                    <div class="box_br">
+                        <label>
+                            <input type="radio" name="gender" value="テキスト2">
+                            テキスト2
+                        </label>
+                    </div>
+                </td>
+              </tr>-->
+              <tr>
+                <th>ご用件</th>
+                <td><select name="ご用件">
+                    <option value="">選択してください</option>
+                    <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                    <option value="募集要項について">募集要項について</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <th>お名前<span>必須</span></th>
+                <td><input size="20" type="text" class="wide" name="お名前" /></td>
+              </tr>
+              <tr>
+                <th>電話番号（半角）<span>必須</span></th>
+                <td><input size="30" type="text" class="wide" name="電話番号" /></td>
+              </tr>
+              <tr>
+                <th>Mail（半角）</th>
+                <td><input size="30" type="text" class="wide" name="Email" /></td>
+              </tr>
+              <tr>
+                <th>お問い合わせ内容<br /></th>
+                <td><textarea cols="50" rows="5" name="お問い合わせ内容" ></textarea></td>
+              </tr>
+            </table>
+            <div class="con_pri">
+                <div class="box_pri">
+                    <div class="box_tori">
+                        <h4>プライバシーポリシー</h4>
+                        <p class="txt">Cheese ACADEMY TOKYO株式会社（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。</p>
+                    </div>
+                    <div class="box_num">
+                        <h4>第1条（個人情報）</h4>
+                        <p class="txt">「個人情報」とは，個人情報保護法にいう「個人情報」を指すものとし，生存する個人に関する情報であって，当該情報に含まれる氏名，生年月日，住所，電話番号，連絡先その他の記述等により特定の個人を識別できる情報及び容貌，指紋，声紋にかかるデータ，及び健康保険証の保険者番号などの当該情報単体から特定の個人を識別できる情報（個人識別情報）を指します。</p>
+                    </div>
+                    <div class="box_num">
+                        <h4>第2条（個人情報の収集方法）</h4>
+                        <p class="txt">当社は，ユーザーが利用登録をする際に氏名，生年月日，住所，電話番号，メールアドレス，銀行口座番号，クレジットカード番号，運転免許証番号などの個人情報をお尋ねすることがあります。また，ユーザーと提携先などとの間でなされたユーザーの個人情報を含む取引記録や決済に関する情報を,当社の提携先（情報提供元，広告主，広告配信先などを含みます。以下，｢提携先｣といいます。）などから収集することがあります。</p>
+                    </div>
+                    <div class="box_num">
+                        <h4>第3条（個人情報を収集・利用する目的）</h4>
+                        <p class="txt">当社が個人情報を収集・利用する目的は，以下のとおりです。
+
+                          1.当社サービスの提供・運営のため
+                          2.ユーザーからのお問い合わせに回答するため（本人確認を行うことを含む）
+                          3.ユーザーが利用中のサービスの新機能，更新情報，キャンペーン等及び当社が提供する他のサービスの案内のメールを送付するため
+                          4.メンテナンス，重要なお知らせなど必要に応じたご連絡のため
+                          5.利用規約に違反したユーザーや，不正・不当な目的でサービスを利用しようとするユーザーの特定をし，ご利用をお断りするため
+                          6.ユーザーにご自身の登録情報の閲覧や変更，削除，ご利用状況の閲覧を行っていただくため
+                          7.有料サービスにおいて，ユーザーに利用料金を請求するため
+                          8.上記の利用目的に付随する目的</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box_check">
+                <label>
+                    <input type="checkbox" name="acceptance-714" value="1" aria-invalid="false" class="agree"><span class="check">プライバシーポリシーに同意する</span>
+                </label>
+            </div>
+            <p class="btn">
+                <span><input type="submit" value="　 送信 　" /></span>
+            </p>
+          </form>
+        </div>
+    
+
+
+  <!-- ここから上にコードを書く -->
+  <!-- この中に記述していく -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
